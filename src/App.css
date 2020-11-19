@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  color: black;
 }
 
 .App-logo {
@@ -14,14 +17,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: RGB(53, 166, 218);
+  height: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.home{
+  color: black;
+  margin-left: 50px;
 }
 
 .App-link {
@@ -35,4 +43,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+.user-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+
+}
+
+.user-card{
+  background-color: #ebebeb;
+  height: 30vh;
+  width: 70vw;
+}
+
+.selector{
+  background-color: ##292c34;
+  color: white;
+  height: 50px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.button{
+  height: 30px;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.blue-button-container{
+  display: flex;
+}
+
+.blue-button{
+  margin: 15px;
 }
