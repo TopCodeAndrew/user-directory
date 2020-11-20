@@ -12,7 +12,7 @@ export default class DisplayUser extends Component {
     render() {
         return (
             <div className="user-card">
-                <header>"1/25" HERE</header>
+                <header className="placement-indicator">{this.props.index + 1}/{this.props.data.length}</header>
                 <div>USER INFO HERE</div>
             </div>
         )

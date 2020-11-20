@@ -63,14 +63,20 @@
 }
 
 .selector{
-  background-color: ##292c34;
+  background-color: #292c34;
   color: white;
   height: 50px;
   width: 70vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
+.placement-indicator{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
 }
 
 .button{
